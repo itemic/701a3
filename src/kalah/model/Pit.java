@@ -12,6 +12,10 @@ public abstract class Pit {
         this.seeds += seeds;
     }
 
+    public void emptySeeds() {
+        this.seeds = 0;
+    }
+
     public int getSeeds() {
         return seeds;
     }

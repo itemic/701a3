@@ -8,4 +8,5 @@ public class Board {
         playerOne = p1;
         playerTwo = p2;
     }
+
 }
