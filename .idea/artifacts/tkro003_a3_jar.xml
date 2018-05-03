@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="tkro003-a3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tkro003_a3_jar</output-path>
+    <root id="root">
+      <element id="archive" name="a3.jar">
+        <element id="module-output" name="a3" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/kalah.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/junit-3.8.2.jar" />
+    </root>
+  </artifact>
+</component>
