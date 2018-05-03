@@ -1,42 +1,50 @@
 package kalah.model;
 
+import kalah.util.InvalidMoveException;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
     private String name;
-    private List<House> houses;
+    private List<Pit> houses;
     private Store store;
 
     public Player(String name) {
         this.name = name;
-        houses = new ArrayList<House>();
+        houses = new ArrayList<Pit>();
         for (int i = 0; i < Game.HOUSES_PER_PLAYER; i++) {
             houses.add(new House(Game.SEEDS_PER_PIT, i+1)); //4, id
         }
-        store = new Store(0);
+        store = new Store();
+        houses.add(new Store());
     }
 
     public int popAt(int position) {
-        House h = houses.get(position - 1);
+        Pit h = houses.get(position - 1);
         int originalSeeds = h.getSeeds();
         h.emptySeeds();
         return originalSeeds;
     }
-    public House houseAt(int position) {return houses.get(position-1);}
-
-    public int seedsAt(int position) { // 1-6
-        return houses.get(position - 1).getSeeds();
+    public House houseAt(int position) throws InvalidMoveException {
+        Pit house = houses.get(position-1);
+        if (house instanceof House) {
+            return (House)house;
+        }
+        throw new InvalidMoveException("This is not a valid house.");
     }
 
-    public List<House> getHouses() {
+    public List<Pit> getHouses() {
         return houses;
     }
 
+
     public int getTotalSeeds() {
         int totalSeeds = 0;
-        for (House h: houses) {
-            totalSeeds += h.getSeeds();
+        for (Pit h: houses) {
+            if (h instanceof House) {
+                totalSeeds += h.getSeeds();
+            }
         }
         return totalSeeds;
     }
@@ -45,7 +53,7 @@ public class Player {
         return getTotalSeeds() + store.getSeeds();
     }
 
-    public boolean isOver() {
+    public boolean hasNoMovesLeft() {
         return getTotalSeeds() == 0;
     }
 

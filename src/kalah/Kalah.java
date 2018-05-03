@@ -3,8 +3,8 @@ package kalah;
 import com.qualitascorpus.testsupport.IO;
 import com.qualitascorpus.testsupport.MockIO;
 import kalah.model.Game;
-import kalah.model.InvalidMoveException;
-import kalah.model.KalahIO;
+import kalah.util.InvalidMoveException;
+import kalah.util.KalahIO;
 import kalah.model.Player;
 
 /**
@@ -21,24 +21,29 @@ public class Kalah {
 	    Player p1 = new Player("P1");
         Player p2 = new Player("P2");
         Game game = new Game(p1, p2);
-        kio.printBoard(game);
-	    int test = kio.printPrompt(game);
-	    while (test != -1) {
-            try {
-                game.makeMove(test);
-            } catch (InvalidMoveException e) {
-                kio.invalidMove();
-            }
+
+        boolean gameHasEnded = false;
+        int userInput = -1;
+
+        while (!gameHasEnded) {
             kio.printBoard(game);
-            if (game.getTurn().isOver()) {
-                break;
+            userInput = kio.printPrompt(game);
+            if (userInput == -1) {break;}
+            try {
+                game.makeMove(userInput);
+            } catch (InvalidMoveException e) {
+                io.println("House is empty. Move again.");
             }
-            test = kio.printPrompt(game);
+            if (game.hasEnded()) {
+                gameHasEnded = true;
+                kio.printBoard(game);
+            }
         }
+
         kio.printEnd();
         kio.printBoard(game);
 
-        if (p1.isOver() || p2.isOver()) {
+        if (gameHasEnded) {
             io.println("\tplayer 1:" + p1.getScore());
             io.println("\tplayer 2:" + p2.getScore());
 
@@ -50,13 +55,5 @@ public class Kalah {
                 io.println("A tie!");
             }
         }
-
-//		// Replace what's below with your implementation
-//		io.println("+----+-------+-------+-------+-------+-------+-------+----+");
-//		io.println("| P2 | 6[ 4] | 5[ 4] | 4[ 4] | 3[ 4] | 2[ 4] | 1[ 4] |  0 |");
-//		io.println("|    |-------+-------+-------+-------+-------+-------|    |");
-//		io.println("|  0 | 1[ 4] | 2[ 4] | 3[ 4] | 4[ 4] | 5[ 4] | 6[ 4] | P1 |");
-//		io.println("+----+-------+-------+-------+-------+-------+-------+----+");
-//		io.println("Player 1's turn - Specify house number or 'q' to quit: ");
 	}
 }

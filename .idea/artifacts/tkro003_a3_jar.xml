@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="tkro003-a3:jar">
+  <artifact build-on-make="true" name="tkro003-a3.jar">
     <output-path>$PROJECT_DIR$/out/artifacts/tkro003_a3_jar</output-path>
     <root id="root">
       <element id="archive" name="a3.jar">

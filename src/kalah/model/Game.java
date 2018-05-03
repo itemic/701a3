@@ -1,12 +1,13 @@
 package kalah.model;
 
+import kalah.util.InvalidMoveException;
+
 import java.util.List;
 
 public class Game {
     public static final int SEEDS_PER_PIT = 4;
     public static final int HOUSES_PER_PLAYER = 6;
 
-    private Board board;
     private Player turn;
     private Player player1;
     private Player player2;
@@ -29,47 +30,50 @@ public class Game {
 
         if (seedsToDistribute == 0) {throw new InvalidMoveException("House is empty. Move again.");}
 
-        int iterationPosition = position+1;
-        Player iterationPlayer = currentPlayer;
+        int iter = position+1;
+        Player iterPlayer = currentPlayer;
+
         while(seedsToDistribute > 0) {
-            if (iterationPosition <= 6) {
-                iterationPlayer.houseAt(iterationPosition).addSeeds(1);
-                iterationPosition++;
+            if (iter <= 6) {
+                iterPlayer.houseAt(iter).addSeeds(1);
+                iter++;
                 seedsToDistribute--;
-            } else if (iterationPosition == 7) {
-                if (iterationPlayer.equals(currentPlayer)) {
+            } else if (iter == HOUSES_PER_PLAYER+1) {
+                if (iterPlayer.equals(currentPlayer)) {
                     // add to store
                     currentPlayer.getStore().addSeeds(1);
-                    iterationPosition = 1;
-                    iterationPlayer = otherPlayer;
+                    iter = 1;
+                    iterPlayer = otherPlayer;
                     seedsToDistribute--;
                 } else {
                     // dont add to store
-                    iterationPosition = 1;
-                    iterationPlayer = currentPlayer;
+                    iter = 1;
+                    iterPlayer = currentPlayer;
                 }
             }
         }
-        iterationPosition--;
-        if (iterationPosition == 0) {iterationPosition = 7;}
+        iter--;
+        if (iter == 0) {iter = HOUSES_PER_PLAYER+1;}
 
-        boolean endingOnHouse = (iterationPosition < 7 && iterationPosition > 0 && currentPlayer.houseAt(iterationPosition).getSeeds() == 1);
+        boolean endingOnHouse = (iter < HOUSES_PER_PLAYER+1 && currentPlayer.houseAt(iter).getSeeds() == 1);
 
-        // at this point iterationPlayer and iterationPosition can help us deal with capture
-        if (iterationPlayer.equals(currentPlayer) && endingOnHouse && otherPlayer.houseAt(getAcross(iterationPosition)).getSeeds() > 0) {
+        // at this point iterationPlayer and iter can help us deal with capture
+        if (iterPlayer.equals(currentPlayer) && endingOnHouse && otherPlayer.houseAt(getAcross(iter)).getSeeds() > 0) {
             //CAPTURE!
-            int seedsToPop = currentPlayer.popAt(iterationPosition);
+            int seedsToPop = currentPlayer.popAt(iter);
             currentPlayer.getStore().addSeeds(seedsToPop);
 
-            int opponentsPop = otherPlayer.popAt(getAcross(iterationPosition));
+            int opponentsPop = otherPlayer.popAt(getAcross(iter));
             currentPlayer.getStore().addSeeds(opponentsPop);
         }
 
-        if (iterationPosition == 7) {
-
-        } else {
+        if (iter != HOUSES_PER_PLAYER+1) {
             turn = otherPlayer; // change turns
         }
+    }
+
+    public boolean hasEnded() {
+        return getTurn().hasNoMovesLeft();
     }
 
     public Player getPlayer1() {
@@ -83,4 +87,5 @@ public class Game {
     public int getAcross(int position) {
         return Math.abs((HOUSES_PER_PLAYER + 1) - position);
     }
+
 }

@@ -16,5 +16,7 @@ public class House extends Pit {
         return this.id;
     }
 
-
+    public int getAcross() {
+        return Math.abs((Game.HOUSES_PER_PLAYER + 1 )- id); 
+    }
 }
