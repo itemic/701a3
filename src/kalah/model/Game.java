@@ -2,90 +2,96 @@ package kalah.model;
 
 import kalah.util.InvalidMoveException;
 
-import java.util.List;
-
 public class Game {
     public static final int SEEDS_PER_PIT = 4;
     public static final int HOUSES_PER_PLAYER = 6;
 
-    private Player turn;
-    private Player player1;
-    private Player player2;
+    private Board board;
 
-    public Game(Player p1, Player p2) {
-        player1 = p1;
-        player2 = p2;
-        turn = p1;
+    private int currentTurn = 1;
+
+    public Game() {
+         board = new Board();
     }
 
-    public Player getTurn() {
-        return turn;
+    public int getTurn() {
+        return currentTurn;
     }
+    public void switchTurns() {
+        currentTurn = currentTurn == 1 ?  2 :  1;
+    }
+
+
 
     public void makeMove(int position) throws InvalidMoveException { // position is 1-6
 
-        Player currentPlayer = getTurn();
-        Player otherPlayer = getTurn().equals(player1) ? player2 : player1;
-        int seedsToDistribute = currentPlayer.popAt(position);
+        int seedsPosition = getTurn() == 1 ? position - 1 : position + 6;
+        int seedsToDistribute = board.getPit(seedsPosition).popSeeds();
 
         if (seedsToDistribute == 0) {throw new InvalidMoveException("House is empty. Move again.");}
 
-        int iter = position+1;
-        Player iterPlayer = currentPlayer;
+        int iter = seedsPosition+1;
 
-        while(seedsToDistribute > 0) {
-            if (iter <= 6) {
-                iterPlayer.houseAt(iter).addSeeds(1);
-                iter++;
+        while (seedsToDistribute > 0) {
+            board.getPit(iter).addSeeds(1, currentTurn);
+            if(board.getPit(iter).didDropSeeds(currentTurn)) {
                 seedsToDistribute--;
-            } else if (iter == HOUSES_PER_PLAYER+1) {
-                if (iterPlayer.equals(currentPlayer)) {
-                    // add to store
-                    currentPlayer.getStore().addSeeds(1);
-                    iter = 1;
-                    iterPlayer = otherPlayer;
-                    seedsToDistribute--;
-                } else {
-                    // dont add to store
-                    iter = 1;
-                    iterPlayer = currentPlayer;
-                }
+            }
+            iter++;
+        }
+
+        // now we check if we are on our house
+
+
+        iter--;
+
+        // Even if we have circular list we still want to reset
+        iter = iter % board.size();
+        if (board.getPit(iter).isOwnedByPlayer(currentTurn) && board.getPit(iter) instanceof House) {
+            if (board.getOppositePit(iter).getSeeds() > 0 && board.getPit(iter).getSeeds() == 1) {
+                // CAPTURE!
+                board.getStore(currentTurn).addSeeds(board.getPit(iter).popSeeds());
+                board.getStore(currentTurn).addSeeds(board.getOppositePit(iter).popSeeds());
             }
         }
-        iter--;
-        if (iter == 0) {iter = HOUSES_PER_PLAYER+1;}
 
-        boolean endingOnHouse = (iter < HOUSES_PER_PLAYER+1 && currentPlayer.houseAt(iter).getSeeds() == 1);
-
-        // at this point iterationPlayer and iter can help us deal with capture
-        if (iterPlayer.equals(currentPlayer) && endingOnHouse && otherPlayer.houseAt(getAcross(iter)).getSeeds() > 0) {
-            //CAPTURE!
-            int seedsToPop = currentPlayer.popAt(iter);
-            currentPlayer.getStore().addSeeds(seedsToPop);
-
-            int opponentsPop = otherPlayer.popAt(getAcross(iter));
-            currentPlayer.getStore().addSeeds(opponentsPop);
-        }
-
-        if (iter != HOUSES_PER_PLAYER+1) {
-            turn = otherPlayer; // change turns
+        if (!board.getPit(iter).canMoveAgain(currentTurn)) {
+            switchTurns(); // change turns
         }
     }
 
     public boolean hasEnded() {
-        return getTurn().hasNoMovesLeft();
+        boolean allEmpty = true;
+        if (currentTurn == 1) {
+            for (int i = 0; i < 6; i++) {
+                allEmpty = allEmpty && board.getPit(i).getSeeds() == 0;
+            }
+        } else {
+            for (int i = 7; i < 13; i++) {
+                allEmpty = allEmpty && board.getPit(i).getSeeds() == 0;
+            }
+        }
+        return allEmpty;
     }
 
-    public Player getPlayer1() {
-        return player1;
+    public int getScore(int player) {
+        int score = 0;
+        if (player == 1) {
+            for (int i = 0; i < 7; i++) {
+                score += board.getPit(i).getSeeds();
+            }
+        } else {
+            for (int i = 7; i < 14; i++) {
+                score += board.getPit(i).getSeeds();
+            }
+        }
+        return score;
     }
 
-    public Player getPlayer2() {
-        return player2;
+    public Board getBoard() {
+        return board;
     }
 
-    public int getAcross(int position) {
-        return Math.abs((HOUSES_PER_PLAYER + 1) - position);
-    }
+
 
 }

@@ -2,28 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13271fd-e5bf-42b7-b747-6b2b98376e0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tkro003_a3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_3_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/kalah.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Board.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/InvalidMoveException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/KalahIO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kalah/model/Board.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/kalah/model/InvalidMoveException.java" afterPath="$PROJECT_DIR$/src/kalah/util/InvalidMoveException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/kalah/model/KalahIO.java" afterPath="$PROJECT_DIR$/src/kalah/util/KalahIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/a3/kalah/Kalah.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/Kalah.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Game.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/House.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/House.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Player.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Store.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Store.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a3.iml" afterPath="$PROJECT_DIR$/a3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kalah/Kalah.java" afterPath="$PROJECT_DIR$/src/kalah/Kalah.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kalah/model/Game.java" afterPath="$PROJECT_DIR$/src/kalah/model/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kalah/model/House.java" afterPath="$PROJECT_DIR$/src/kalah/model/House.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kalah/model/Player.java" afterPath="$PROJECT_DIR$/src/kalah/model/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kalah/model/Store.java" afterPath="$PROJECT_DIR$/src/kalah/model/Store.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/kalah/model/Board.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tkro003_a3_jar/a3.jar" afterPath="$PROJECT_DIR$/out/artifacts/tkro003_a3_jar/a3.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/Kalah.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/Kalah.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Game.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Game.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/House.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/House.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Pit.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Pit.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Player.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/a3/kalah/model/Store.class" afterPath="$PROJECT_DIR$/out/production/a3/kalah/model/Store.class" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/Kalah.java" afterPath="$PROJECT_DIR$/src/kalah/Kalah.java" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/model/Game.java" afterPath="$PROJECT_DIR$/src/kalah/model/Game.java" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/model/House.java" afterPath="$PROJECT_DIR$/src/kalah/model/House.java" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/model/Pit.java" afterPath="$PROJECT_DIR$/src/kalah/model/Pit.java" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/model/Player.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/model/Store.java" afterPath="$PROJECT_DIR$/src/kalah/model/Store.java" />
+      <change beforePath="$PROJECT_DIR$/src/kalah/util/KalahIO.java" afterPath="$PROJECT_DIR$/src/kalah/util/KalahIO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kalah.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Kalah.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kalah/Kalah.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="897">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,23 +45,59 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kalah/model/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
-                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#2619#2620#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidMoveException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kalah/util/InvalidMoveException.java">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kalah/model/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kalah/model/Pit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,10 +105,11 @@
       <file leaf-file-name="House.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kalah/model/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="207">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,25 +118,15 @@
       <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kalah/model/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="506">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kalah/model/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,11 +135,37 @@
       <file leaf-file-name="KalahIO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kalah/util/KalahIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="281">
+              <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2253#2254#0" expanded="true" />
+                <element signature="e#2292#2293#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestKalah.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/kalah.jar!/kalah/test/TestKalah.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capture.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_specifications/capture.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,17 +191,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/kalah.jar!/kalah/test/TestKalah.class" />
-        <option value="$PROJECT_DIR$/src/kalah/model/Board.java" />
-        <option value="$PROJECT_DIR$/src/kalah/model/Pit.java" />
         <option value="$PROJECT_DIR$/src/kalah/model/InvalidMoveException.java" />
         <option value="$PROJECT_DIR$/src/kalah/model/KalahIO.java" />
         <option value="$PROJECT_DIR$/src/kalah/util/InvalidMoveException.java" />
-        <option value="$PROJECT_DIR$/src/kalah/model/Store.java" />
-        <option value="$PROJECT_DIR$/src/kalah/model/Game.java" />
-        <option value="$PROJECT_DIR$/src/kalah/Kalah.java" />
         <option value="$PROJECT_DIR$/src/kalah/model/House.java" />
-        <option value="$PROJECT_DIR$/src/kalah/util/KalahIO.java" />
+        <option value="$PROJECT_DIR$/src/kalah/model/Store.java" />
         <option value="$PROJECT_DIR$/src/kalah/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/kalah/model/Pit.java" />
+        <option value="$PROJECT_DIR$/src/kalah/util/KalahIO.java" />
+        <option value="$PROJECT_DIR$/src/kalah/model/Board.java" />
+        <option value="$PROJECT_DIR$/src/kalah/Kalah.java" />
+        <option value="$PROJECT_DIR$/src/kalah/model/Game.java" />
       </list>
     </option>
   </component>
@@ -163,12 +211,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="918" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -184,60 +234,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kalah" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kalah" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kalah" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
-              <item name="kalah.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
-              <item name="kalah.jar" type="ab9368bb:PsiFileNode" />
-              <item name="testsupport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a3" type="462c0819:PsiDirectoryNode" />
-              <item name="kalah.jar" type="ab9368bb:PsiFileNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="701a3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="701a3" type="462c0819:PsiDirectoryNode" />
+              <item name="test_specifications" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
@@ -246,9 +284,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25691244" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -363,63 +402,66 @@
       <workItem from="1525156593046" duration="9770000" />
       <workItem from="1525332007660" duration="5998000" />
       <workItem from="1525339258548" duration="4407000" />
+      <workItem from="1527915563544" duration="5192000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.05.03 at 20h 23m 44s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 10m 58s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 42m 07s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 11m 05s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 43m 39s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 11m 43s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 44m 08s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 12m 30s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 45m 31s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 14m 40s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 49m 00s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 16m 12s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 20h 49m 14s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 17m 03s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 23h 08m 56s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 17m 18s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 23h 28m 16s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 17m 33s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.05.03 at 23h 28m 47s.xml">
+    <history-entry file="Unnamed - 2018.06.02 at 18h 22m 49s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23803000" />
+    <option name="totallyTimeSpent" value="28995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="918" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28132388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44251627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18796591" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -431,7 +473,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,6 +490,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/kalah/Kalah.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/util/InvalidMoveException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/util/KalahIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/Kalah.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -462,9 +583,13 @@
         <state relative-caret-position="1400">
           <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,7 +607,8 @@
         <state relative-caret-position="300">
           <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding>
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,8 +618,18 @@
         <state relative-caret-position="200">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,8 +639,12 @@
         <state relative-caret-position="100">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,11 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,6 +663,8 @@
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,9 +684,13 @@
         <state relative-caret-position="1380">
           <caret line="71" column="9" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="71" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,7 +708,8 @@
         <state relative-caret-position="260">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,8 +719,18 @@
         <state relative-caret-position="200">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,8 +740,12 @@
         <state relative-caret-position="60">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,11 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -611,6 +764,8 @@
           <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -630,7 +785,8 @@
         <state relative-caret-position="240">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,8 +796,18 @@
         <state relative-caret-position="200">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,8 +817,12 @@
         <state relative-caret-position="60">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,11 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,6 +842,8 @@
           <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,94 +873,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kalah/model/Board.java" />
-    <entry file="jar://$PROJECT_DIR$/kalah.jar!/kalah/test/TestKalah.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kalah/util/InvalidMoveException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="46">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kalah/util/KalahIO.java">
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/kalah.jar!/kalah/test/TestKalah.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kalah/model/House.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kalah/Kalah.java">
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kalah/model/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kalah/model/Pit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="782">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kalah/model/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="506">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kalah/model/Player.java">
+    <entry file="file://$PROJECT_DIR$/test_specifications/capture.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/util/KalahIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kalah/Kalah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,7 +1053,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -856,6 +1070,7 @@
             <option name="proportions">
               <list>
                 <option value="0.25691244" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -5,7 +5,6 @@ import com.qualitascorpus.testsupport.MockIO;
 import kalah.model.Game;
 import kalah.util.InvalidMoveException;
 import kalah.util.KalahIO;
-import kalah.model.Player;
 
 /**
  * This class is the starting point for a Kalah implementation using
@@ -18,12 +17,10 @@ public class Kalah {
 	public void play(IO io) {
 	    KalahIO kio = new KalahIO(io);
 
-	    Player p1 = new Player("P1");
-        Player p2 = new Player("P2");
-        Game game = new Game(p1, p2);
+        Game game = new Game();
 
         boolean gameHasEnded = false;
-        int userInput = -1;
+        int userInput;
 
         while (!gameHasEnded) {
             kio.printBoard(game);
@@ -44,12 +41,12 @@ public class Kalah {
         kio.printBoard(game);
 
         if (gameHasEnded) {
-            io.println("\tplayer 1:" + p1.getScore());
-            io.println("\tplayer 2:" + p2.getScore());
+            io.println("\tplayer 1:" + game.getScore(1));
+            io.println("\tplayer 2:" + game.getScore(2));
 
-            if (p1.getScore() > p2.getScore()) {
+            if (game.getScore(1) > game.getScore(2)) {
                 io.println("Player 1 wins!");
-            } else if (p1.getScore() < p2.getScore()) {
+            } else if (game.getScore(1) < game.getScore(2)) {
                 io.println("Player 2 wins!");
             } else {
                 io.println("A tie!");

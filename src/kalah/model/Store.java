@@ -1,11 +1,25 @@
 package kalah.model;
 
 public class Store extends Pit {
-    public Store(int seeds) {
-        super(seeds);
+
+    public Store(int player) {
+        super(0, player);
     }
 
-    public Store() {
-        super(0);
+    @Override
+    public void addSeeds(int seeds, int player) {
+        if (player == getPitOwner()) {
+            super.addSeeds(seeds, player);
+        }
+    }
+
+    @Override
+    public boolean didDropSeeds(int player) {
+        return player == getPitOwner();
+    }
+
+    @Override
+    public boolean canMoveAgain(int player) {
+        return player == getPitOwner();
     }
 }
