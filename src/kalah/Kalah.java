@@ -2,7 +2,10 @@ package kalah;
 
 import com.qualitascorpus.testsupport.IO;
 import com.qualitascorpus.testsupport.MockIO;
+import kalah.model.Board;
+import kalah.model.KalahBoard;
 import kalah.model.Game;
+import kalah.model.KalahGame;
 import kalah.util.InvalidMoveException;
 import kalah.util.KalahIO;
 
@@ -16,14 +19,14 @@ public class Kalah {
 	}
 	public void play(IO io) {
 	    KalahIO kio = new KalahIO(io);
-
-        Game game = new Game();
+        Board board64 = new KalahBoard();
+        Game game = new KalahGame(board64);
 
         boolean gameHasEnded = false;
         int userInput;
 
         while (!gameHasEnded) {
-            kio.printBoard(game);
+            kio.printBoard(board64);
             userInput = kio.printPrompt(game);
             if (userInput == -1) {break;}
             try {
@@ -33,12 +36,12 @@ public class Kalah {
             }
             if (game.hasEnded()) {
                 gameHasEnded = true;
-                kio.printBoard(game);
+                kio.printBoard(board64);
             }
         }
 
         kio.printEnd();
-        kio.printBoard(game);
+        kio.printBoard(board64);
 
         if (gameHasEnded) {
             io.println("\tplayer 1:" + game.getScore(1));
